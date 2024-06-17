@@ -152,6 +152,7 @@ if __name__=='__main__':
     new_sub_list = sorted(set(new_sub_list))
     new_clash_list = sorted(set(new_clash_list))
     new_v2_list = sorted(set(new_v2_list))
+    new_proxy_list = sorted(set(proxy_list))
 
     dict_url.update({'机场订阅':new_sub_list})
     dict_url.update({'clash订阅': new_clash_list})
@@ -169,7 +170,7 @@ if __name__=='__main__':
 
     # 直接提供的代理列表
     with open('v2ray.txt', 'w', encoding="utf-8") as f:
-        for line in proxy_list:
+        for line in new_proxy_list:
             # 过滤以...结尾的内容
             if line.endswith('...'):
                 continue
