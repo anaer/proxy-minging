@@ -120,7 +120,7 @@ if __name__=='__main__':
     url_list = []
     proxy_list = []
     allow_list = ['sub', 'clash', 'paste', 'tt.vg', 'shz.al', 'proxies']
-    deny_list = ['https://t.me/', 'raw.githubusercontent.com']
+    deny_list = ['https://t.me/', 'raw.githubusercontent.com', 'github.com']
     for channel_url in list_tg:
         temp_url_list, temp_text_list = get_channel_http(channel_url)
         for url in temp_url_list:
