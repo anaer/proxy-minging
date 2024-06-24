@@ -1,3 +1,5 @@
+PS: actions免费时间不够用了, 暂停该项目, 有需要的自己fork执行
+
 ## proxy-minging
 
 | 文件名      | 说明                       |
